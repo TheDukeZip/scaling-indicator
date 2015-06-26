@@ -9,6 +9,7 @@ scaling-indicator depends on GNOME's AppIndicator extension, as well as python's
 GNOME extension: https://extensions.gnome.org/extension/615/appindicator-support/
 
 sudo apt-get install python-appindicator
+
 sudo pip install watchdog
 
 # Installation
@@ -34,10 +35,13 @@ sudo rm -R /usr/lib/scalingindicator
 Click the AppIndicator to change scaling setting, use "Custom..." to input one not shown on the list.
 
 I recommend setting hotkeys in GNOME for your most used settings. For example, I use 
+
 Control+Alt+1 : 1.0
+
 Control+alt+2 : 1.2
+
 Control+Alt+8 : 0.8
 
-When changing scaling by hotkey, or with GNOME's tweak tool, the AppIndicator should update within 2 seconds to show current setting.
+When changing scaling by hotkey, or with GNOME's tweak tool, the AppIndicator should update within 2 seconds to show the current setting.
 
 To modify the options shown in the dropdown, edit /usr/bin/scaling-indicator.py (as root) and edit the OPTIONS array near the top of the code. Log out and log in, or restart the process manually.

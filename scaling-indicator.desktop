@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=/usr/bin/scaling-indicator.py
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=Scaling Indicator
+Comment=Simple indicator applet to monitor and change GNOME's text-scaling-factor
