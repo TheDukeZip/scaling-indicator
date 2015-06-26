@@ -20,7 +20,7 @@ chmod a+x setup.sh
 
 sudo ./setup.sh
 
-Log in and log back out, or manually run /usr/bin/scaling-indicator.py
+Log out and log back in, or manually run /usr/bin/scaling-indicator.py
 
 # Removal
 
@@ -38,7 +38,7 @@ I recommend setting hotkeys in GNOME for your most used settings. For example, I
 
 Control+Alt+1 : 1.0
 
-Control+alt+2 : 1.2
+Control+Alt+2 : 1.2
 
 Control+Alt+8 : 0.8
 
